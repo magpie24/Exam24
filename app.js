@@ -25,12 +25,12 @@ for (const project of projects) {
     `         
     <li>
     <br>
-    Title: ${project.title.rendered}<br>
+    <img src="${project.acf.image}" alt="${project.title.rendered}>
+    <h1>Title: ${project.title.rendered}<br></h1>
     Client: ${project.acf.client}<br>
     Type: ${project.acf.type}<br>
     Description: ${project.acf.description}<br>
     Link: <a href="${project.acf.link}" target="_blank">${project.acf.link}</a><br>
-    ${project.acf.image}
     </li>
     `
   );
