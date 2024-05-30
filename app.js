@@ -25,7 +25,8 @@ for (const project of projects) {
     `         
     <li>
     <br>
-    Title: ${project.title.rendered}<br>
+    <img src="${project.acf.image}" alt="${project.title.rendered}" style="max-width: 100%; height: auto; display: block; margin-bottom: 10px;"
+    Title: <b>${project.title.rendered}</b><br>
     Client: ${project.acf.client}<br>
     Type: ${project.acf.type}<br>
     Description: ${project.acf.description}<br>

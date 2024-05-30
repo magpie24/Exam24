@@ -2,17 +2,37 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #efcdd7;
-  text-align: center;
+  text-align: left;
+  font-family: 'Poppins';
+  background-color: #f0f8ff; /* light blue background */
+  color: #333;
 }
 
-ul{
+ul {
   list-style-type: none;
   text-align: left;
+  width: 40vw;
+
+}
+
+h1{
+  padding-left: 4vw;
+}
+
+
+li {
+  background-color: #ffffff; /* white background for list items */
+  border: 1px solid #dcdcdc; /* thin gray border */
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 16px; /* rounded corners */
 }
 
 a{
-  color: rgb(164, 28, 117);
+  color: #de00aa; /* blue color for links */
+  text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
