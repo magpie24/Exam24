@@ -15,7 +15,6 @@ async function getProjects() {
   return data;
 }
 
-
 function displayProjects(projects) {
   const projectsList = document.querySelector("#projects-list");
 

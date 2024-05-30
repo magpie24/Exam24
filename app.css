@@ -1,12 +1,22 @@
+/* Global Settings */
+
 html,
 body {
   margin: 0;
   padding: 0;
   text-align: left;
   font-family: 'Poppins';
-  background-color: #f0f8ff; /* light blue background */
+  background-color: #f0f8ff;
   color: #333;
 }
+
+/* Heading */
+
+h1{
+  padding-left: 4vw;
+}
+
+/* Unorded List */
 
 ul {
   list-style-type: none;
@@ -15,21 +25,18 @@ ul {
 
 }
 
-h1{
-  padding-left: 4vw;
-}
-
-
 li {
-  background-color: #ffffff; /* white background for list items */
-  border: 1px solid #dcdcdc; /* thin gray border */
+  background-color: #ffffff; 
+  border: 1px solid #dcdcdc; 
   margin: 10px 0;
   padding: 10px;
-  border-radius: 16px; /* rounded corners */
+  border-radius: 16px;
 }
 
+/* Links */
+
 a{
-  color: #de00aa; /* blue color for links */
+  color: #de00aa; 
   text-decoration: none;
 }
 
